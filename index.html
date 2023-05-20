@@ -4,37 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        div
-        {
-            border-style: solid;
-            box-sizing: border-box;
-        }
-    </style>
+    <title>Profession Card</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div >
-<h1><u>The Beagle Blog</u></h1>
-<p>The Beagle Blog
-
-The Beagle is a breed of small scent hound, similar in appearance to the much larger foxhound. The beagle was developed primarily for hunting hare, known as beagling. Possessing a great sense of smell and superior tracking instincts, the beagle is the primary breed used as a detection dog for prohibited agricultural imports and foodstuffs in quarantine around the world. The beagle is intelligent and is a popular pet due to its size, good temper, and a lack of inherited health problems.
-
-</p>
-<p><br><u>Read more</u></p>
- </div>
- 
- <h2><u>Images</u></h2>
- <img src ="https://cdn.britannica.com/16/234216-050-C66F8665/beagle-hound-dog.jpg"width="500px" height="400px">
- <p><u>more images</u></p>
- <h2><u>Trivia</u></h2>
- <ol >
-<li>Height - 13–16 in (33–41 cm)</li><br>
-    <li>Weight - 22–25 lb (10.0–11.3 kg)</li><br>
-    <li>Coat -Short haired, hard coat of medium length </li><br>
-    <li>Colour -Tricolor or white in combination with black & tan/brown or brown/tan</li><br>
-    <li>Life span - 12–15 years</li><br>
- </ol>
-    
+    <div class="signup"><p>Signup</p></div>
+    <div class="container">
+        <h3 class="h3_1">Filter ui cards via their profession</h3>
+        <div class="dropdown">
+          <select id="profession">
+            <option value="">Profession</option>
+            <option value="developer">Developer</option>
+            <option value="admin">Admin</option>
+          </select>
+        </div>
+          <div id="list"></div>
+          <button id="btn" onclick="filterCards()">Filter</button>
+          <h3 class="h3_2">Add a new user</h3>
+          <div class="user-info">
+            <div class="user-item">
+              <label for="name">Enter Name</label><br>
+              <input type="text" id="name">
+            </div>
+            <div class="user-item">
+              <label for="profession">Enter Profession</label><br>
+              <input type="text" id="newProfession">
+            </div>
+            <div class="user-item">
+              <label for="age">Enter Age</label><br>
+              <input type="number" id="age">
+            </div>
+          </div>
+            <button onclick="addUser()" id="btn">Add User</button>          
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -1,0 +1,99 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color:rgb(91, 89, 89);
+  }
+  .container{
+    margin-top: -12px;
+    padding: 20px;
+    padding-left: 40px;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    font-weight: 300;
+  }
+  .signup{
+    color: rgb(169, 167, 167);
+    font-size:15px;
+    font-weight: 300;
+  }
+  .h3_1{
+   font-weight: 200;
+   margin-bottom: 40px;
+  }
+  .dropdown select{
+    /* padding: 10px 20px; */
+    font-size: 15px;
+    background-color: transparent;
+    border-color:whitesmoke;
+    color: white;
+    font-weight: 100;
+    border-radius: 0px;
+    padding: 10px 10px;
+  }
+  select option{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.875);
+  }
+  #list{
+  margin-top: 40px;
+  }
+  .card , .card2{
+    border: 1px solid rgba(255, 255, 255, 0.508);
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+  }
+  .id , .name , .profession , .age{
+    font-size: 14px;
+    font-weight: 200;
+  }
+  #btn{
+    margin: 15px 0px;
+    padding: 5px 40px;
+    background-color:rgba(232, 226, 226, 0.918);
+  }
+  #btn:hover{
+    cursor: pointer;
+    background-color:rgb(123, 137, 150);
+    color:white;
+  }
+  .h3_2{
+    font-weight: 200;
+    margin-top: 60px;
+    font-size: 18px;
+  }
+  .user-info{
+    display: flex;
+    gap: 50px;
+  }
+  .user-item{
+    padding: 20px 0px;
+    font-weight: 200;
+    font-size: 12px;
+  }
+  .user-item input{
+    margin-top: 10px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    color: white;
+    padding: 0px 15px;
+  }
+  #add-user{
+    margin: 15px 0px;
+    padding: 5px 30px;
+  }
+  
+  .id2 , .name2 , .profession2 , .age2 {
+    font-size: 14px;
+    font-weight: 200;
+  }
+  .card2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
